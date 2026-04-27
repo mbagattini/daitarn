@@ -15,11 +15,6 @@ You are likely to find Daitarn useful if:
 - You have tried fully autonomous AI coding and found it produces too much, too fast, in directions you did not authorize.
 - You have tried heavy spec-driven approaches and found the upfront ceremony exhausting.
 
-You are likely **not** the target audience if:
-
-- You want maximum throughput and do not care to understand the code in detail.
-- You are happy delegating end-to-end without supervision.
-
 ## Core ideas
 
 **Scope is normed.** Each unit of work — a *step*, roughly 2–4 hours of human work — has an explicit brief, a written analysis, a set of binding decisions, and an implementation that does only what the decisions say. Anything that falls outside scope goes to a parking lot, never silently into the implementation.
@@ -54,7 +49,7 @@ daitarn/
 
 ## Getting started
 
-1. Download the scaffold tarball for the version you want and extract it as the root of your repository.
+1. Download the version you want use, likely the most recent one.
 2. `git init` in the repository root.
 3. In `CLAUDE.md`, fill in the *Project mission* section and choose the mode (`Mode: pilot` or `Mode: auto`).
 4. Optionally fill the placeholders in `specs/project/core/` (conventions, glossary, governance overrides).
@@ -63,7 +58,7 @@ daitarn/
 
 From there, the assistant guides the next move at the end of every skill via a `Next:` block.
 
-## Versions
+## Versions history
 
 ### v1.1 — dual-mode support
 
