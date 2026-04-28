@@ -16,11 +16,6 @@ You are likely to find Daitarn useful if:
 - You have tried heavy spec-driven approaches and found the upfront ceremony exhausting.
 - You work on existing codebases (brownfield) and want to add Claude Code without it sprawling all over the place.
 
-You are likely **not** the target audience if:
-
-- You want maximum throughput and do not care to understand the code in detail.
-- You are happy delegating end-to-end without supervision.
-
 ## Core ideas
 
 **Scope is normed.** Each unit of work — a *step*, roughly 2–4 hours of human work — has an explicit brief, a written analysis, a set of binding decisions, and an implementation that does only what the decisions say. Anything that falls outside scope goes to a parking lot, never silently into the implementation.
@@ -63,9 +58,10 @@ daitarn/
 
 ## Getting started
 
+<<<<<<< HEAD
 ### Greenfield project
 
-1. Download the v1.2 scaffold tarball and extract it as the root of your repository.
+1. Download the version you want use, likely the most recent one.
 2. `git init` in the repository root.
 3. In `CLAUDE.md`, fill in the *Project mission* section and choose the mode (`Mode: pilot` or `Mode: auto`).
 4. Optionally fill the placeholders in `specs/project/core/` (conventions, glossary, governance overrides). They can also stay empty and grow over time.
@@ -90,7 +86,7 @@ The assistant guides the next move at the end of every command via a `Next:` blo
 
 Onboarding can also be re-run later — for example if `conventions.md` has degraded over time and you want to re-extract from the codebase.
 
-## Versions
+## Versions history
 
 ### v1.2 — onboarding, boundaries, source roots
 
@@ -171,5 +167,4 @@ This is a personal system that I am sharing in case it is useful. Feedback, issu
 
 ## License
 
-<!-- Choose your license. MIT and Apache-2.0 are reasonable defaults. -->
-TBD.
+MIT License.
