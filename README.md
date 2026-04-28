@@ -58,7 +58,6 @@ daitarn/
 
 ## Getting started
 
-<<<<<<< HEAD
 ### Greenfield project
 
 1. Download the version you want use, likely the most recent one.
